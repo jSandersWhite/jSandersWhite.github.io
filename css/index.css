@@ -1,0 +1,41 @@
+body {
+    background-color: #000880;
+}
+
+.bg-hero-splash {
+    position: relative;
+    min-height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-hero-splash::before {
+    content: "";
+    background-image: url("../images/hero-splash.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    opacity: 0.5
+}
+
+.bg-hero-splash > * {
+    position: relative;
+}
+
+.logo-img {
+    max-width: 75px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.social-links {
+    font-size: x-large;
+}
